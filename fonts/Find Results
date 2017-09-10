@@ -1,0 +1,190 @@
+Searching 45 files for "5DBCD2" (regex)
+
+0 matches
+
+Searching 693 files for "5DBCD2" (regex)
+
+0 matches
+
+Searching 45 files for "flaticon-menu9" (regex)
+
+/Users/saurabhjindal/Desktop/light version/fonts/flaticon.css:
+  484  	content: "\e09c";
+  485  }
+  486: .flaticon-menu9:before {
+  487  	content: "\e09d";
+  488  }
+
+/Users/saurabhjindal/Desktop/light version/fonts/flaticon.html:
+  563  		<div class="glyph-icon flaticon-menu8"></div>
+  564  		<div class="class-name">.flaticon-menu8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/menu-square-alt_8933">Elegant Themes</a></div></div><div class="glyph">
+  565: 		<div class="glyph-icon flaticon-menu9"></div>
+  566: 		<div class="class-name">.flaticon-menu9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/menu-lines_9898">Elegant Themes</a></div></div><div class="glyph">
+  567  		<div class="glyph-icon flaticon-microphone9"></div>
+  568  		<div class="class-name">.flaticon-microphone9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/microphone-voice_8716">Elegant Themes</a></div></div><div class="glyph">
+
+/Users/saurabhjindal/Desktop/light version/index.html:
+   32
+   33      <!-- MAIN NAV -->
+   34:     <a id="main-nav" href="#sidr"><span class="flaticon-menu9"></span></a>
+   35      <div id="sidr" class="sidr">
+   36
+
+4 matches across 3 files
+
+
+Searching 45 files for "sidr" (regex)
+
+/Users/saurabhjindal/Desktop/light version/css/responsive.css:
+   32      }
+   33
+   34:     .sidr-open .wrap,
+   35  .wrap {
+   36          width: 90%;
+   ..
+   67      }
+   68
+   69:     .sidr-open .wrap .box,
+   70  .box {
+   71          width: 100%;
+   ..
+   78      }
+   79
+   80:     .sidr ul {
+   81          margin-top: 35%;
+   82      }
+   83
+   84:     #sidr {
+   85          width: 200px;
+   86          z-index: 100;
+   ..
+   95      }
+   96
+   97:     .sidr ul li a, .sidr ul li span {
+   98          font-size: 11px;
+   99          padding: 0 18px;
+  ...
+  111      }
+  112
+  113:     .sidr-open #main-nav {
+  114          left: 14px;
+  115          z-index: 200;
+  ...
+  175      }
+  176
+  177:     .sidr-open .wrap .box, .box {
+  178          width: 100%;
+  179          text-align: center;
+  ...
+  234      }
+  235
+  236:     .sidr ul li {
+  237          line-height: 35px;
+  238      }
+
+/Users/saurabhjindal/Desktop/light version/css/style.css:
+  285      margin: 30px auto 35px auto;
+  286  }
+  287: .sidr {
+  288      display: none;
+  289      position: absolute;
+  ...
+  299      background: #2D36B7;
+  300  }
+  301: .sidr.right {
+  302      left: auto;
+  303      right: -260px;
+  304  }
+  305: .sidr.left {
+  306      left: -260px;
+  307      right: auto;
+  308  }
+  309: .sidr ul {
+  310      display: block;
+  311      margin: 0 0 15px;
+  312      padding: 0;
+  313  }
+  314: .sidr ul li {
+  315      display: block;
+  316      margin: 0;
+  ...
+  321      transition: 0.3s;
+  322  }
+  323: .sidr ul li:hover,
+  324: .sidr ul li.active,
+  325: .sidr ul li.sidr-class-active {
+  326      border-top: none;
+  327      background: #84B42D ;
+  328  }
+  329: .sidr ul li:hover>a,
+  330: .sidr ul li:hover>span,
+  331: .sidr ul li.active>a,
+  332: .sidr ul li.active>span,
+  333: .sidr ul li.sidr-class-active>a,
+  334: .sidr ul li.sidr-class-active>span { background: #91C72E  }
+  335: .sidr ul li a,
+  336: .sidr ul li span {
+  337      padding: 0 25px;
+  338      display: block;
+  ...
+  347      transition: 0.3s;
+  348  }
+  349: .sidr ul li a span {
+  350      display: inline-block;
+  351      padding-left: 0;
+  ...
+  353      font-size: 14px;
+  354  }
+  355: .sidr-open .wrap { width: 1200px }
+  356: .sidr-open .fp-slidesNav { margin-left: -602px!important }
+  357: .sidr-open .wrap .box { width: 40% }
+  358: .sidr-open #main-nav { left: 274px }
+  359
+  360  /*navigation bullets*/
+  ...
+  846      margin: 15px 20px;
+  847  }
+  848: .sidr-open .specifications { margin: 15px 10px }
+  849  .specifications li { padding: 3px }
+  850  .specifications .icon {
+
+/Users/saurabhjindal/Desktop/light version/index.html:
+   32
+   33      <!-- MAIN NAV -->
+   34:     <a id="main-nav" href="#sidr"><span class="flaticon-menu9"></span></a>
+   35:     <div id="sidr" class="sidr">
+   36
+   37          <!-- MAIN NAV LOGO -->
+   ..
+  358      <script src="js/jquery.fullPage.js"></script>
+  359      <script src="js/cbpFWTabs.js"></script>
+  360:     <script src="js/jquery.sidr.min.js"></script>
+  361      <script src="js/scripts.js"></script>
+  362      <!--<script type="text/javascript" src="js/video.js"></script> -->
+
+/Users/saurabhjindal/Desktop/light version/js/jquery.sidr.min.js:
+    1: /*! Sidr - v1.2.1 - 2013-11-06
+    2:  * https://github.com/artberri/sidr
+    3   * Copyright (c) 2013 Alberto Varela; Licensed MIT */
+    4: (function(e){var t=!1,i=!1,n={isUrl:function(e){var t=RegExp("^(https?:\\/\\/)?((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|((\\d{1,3}\\.){3}\\d{1,3}))(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*(\\?[;&a-z\\d%_.~+=-]*)?(\\#[-a-z\\d_]*)?$","i");return t.test(e)?!0:!1},loadContent:function(e,t){e.html(t)},addPrefix:function(e){var t=e.attr("id"),i=e.attr("class");"string"==typeof t&&""!==t&&e.attr("id",t.replace(/([A-Za-z0-9_.\-]+)/g,"sidr-id-$1")),"string"==typeof i&&""!==i&&"sidr-inner"!==i&&e.attr("class",i.replace(/([A-Za-z0-9_.\-]+)/g,"sidr-class-$1")),e.removeAttr("style")},execute:function(n,s,a){"function"==typeof s?(a=s,s="sidr"):s||(s="sidr");var r,d,l,c=e("#"+s),u=e(c.data("body")),f=e("html"),p=c.outerWidth(!0),g=c.data("speed"),h=c.data("side"),m=c.data("displace"),v=c.data("onOpen"),y=c.data("onClose"),x="sidr"===s?"sidr-open":"sidr-open "+s+"-open";if("open"===n||"toggle"===n&&!c.is(":visible")){if(c.is(":visible")||t)return;if(i!==!1)return o.close(i,function(){o.open(s)}),void 0;t=!0,"left"===h?(r={left:p+"px"},d={left:"0px"}):(r={right:p+"px"},d={right:"0px"}),u.is("body")&&(l=f.scrollTop(),f.css("overflow-x","hidden").scrollTop(l)),m?u.addClass("sidr-animating").css({width:u.width(),position:"absolute"}).animate(r,g,function(){e(this).addClass(x)}):setTimeout(function(){e(this).addClass(x)},g),c.css("display","block").animate(d,g,function(){t=!1,i=s,"function"==typeof a&&a(s),u.removeClass("sidr-animating")}),v()}else{if(!c.is(":visible")||t)return;t=!0,"left"===h?(r={left:0},d={left:"-"+p+"px"}):(r={right:0},d={right:"-"+p+"px"}),u.is("body")&&(l=f.scrollTop(),f.removeAttr("style").scrollTop(l)),u.addClass("sidr-animating").animate(r,g).removeClass(x),c.animate(d,g,function(){c.removeAttr("style").hide(),u.removeAttr("style"),e("html").removeAttr("style"),t=!1,i=!1,"function"==typeof a&&a(s),u.removeClass("sidr-animating")}),y()}}},o={open:function(e,t){n.execute("open",e,t)},close:function(e,t){n.execute("close",e,t)},toggle:function(e,t){n.execute("toggle",e,t)},toogle:function(e,t){n.execute("toggle",e,t)}};e.sidr=function(t){return o[t]?o[t].apply(this,Array.prototype.slice.call(arguments,1)):"function"!=typeof t&&"string"!=typeof t&&t?(e.error("Method "+t+" does not exist on jQuery.sidr"),void 0):o.toggle.apply(this,arguments)},e.fn.sidr=function(t){var i=e.extend({name:"sidr",speed:200,side:"left",source:null,renaming:!0,body:"body",displace:!0,onOpen:function(){},onClose:function(){}},t),s=i.name,a=e("#"+s);if(0===a.length&&(a=e("<div />").attr("id",s).appendTo(e("body"))),a.addClass("sidr").addClass(i.side).data({speed:i.speed,side:i.side,body:i.body,displace:i.displace,onOpen:i.onOpen,onClose:i.onClose}),"function"==typeof i.source){var r=i.source(s);n.loadContent(a,r)}else if("string"==typeof i.source&&n.isUrl(i.source))e.get(i.source,function(e){n.loadContent(a,e)});else if("string"==typeof i.source){var d="",l=i.source.split(",");if(e.each(l,function(t,i){d+='<div class="sidr-inner">'+e(i).html()+"</div>"}),i.renaming){var c=e("<div />").html(d);c.find("*").each(function(t,i){var o=e(i);n.addPrefix(o)}),d=c.html()}n.loadContent(a,d)}else null!==i.source&&e.error("Invalid Sidr Source");return this.each(function(){var t=e(this),i=t.data("sidr");i||(t.data("sidr",s),"ontouchstart"in document.documentElement?(t.bind("touchstart",function(e){e.originalEvent.touches[0],this.touched=e.timeStamp}),t.bind("touchend",function(e){var t=Math.abs(e.timeStamp-this.touched);200>t&&(e.preventDefault(),o.toggle(s))})):t.click(function(e){e.preventDefault(),o.toggle(s)}))})}})(jQuery);
+
+/Users/saurabhjindal/Desktop/light version/js/scripts.js:
+    5          });
+    6      })();
+    7:     $('#main-nav').sidr();
+    8      $('#fullpage').fullpage({
+    9          'verticalCentered': true,
+   ..
+   24
+   25         $(document).mouseup(function (e) {
+   26:     if ($(".sidr-open ")[0]){
+   27:     var container = $("#sidr");
+   28
+   29      if (!container.is(e.target) // if the target of the click isn't the container...
+   30          && container.has(e.target).length === 0) // ... nor a descendant of the container
+   31      {
+   32:       $(".sidr-open #main-nav").click();
+   33      }}
+   34  });
+
+65 matches across 5 files
