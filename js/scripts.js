@@ -14,6 +14,7 @@
         'slidesNavPosition': 'bottom',
         'easingcss3': 'ease',
         'navigation': true,
+        // 'anchors': ['Home', 'Features', 'About', 'Video', 'Clients', 'Screenshots', 'Pricing', 'Download', 'Contact'],
         'anchors': ['Home', 'Features', 'About', 'Clients', 'Screenshots', 'Download', 'Contact'],
         'navigationPosition': 'left'
     });
@@ -42,9 +43,6 @@ $('#success').delay(2000).fadeOut();
 return false;
 
 });
-
-
-
 
   });
   jQuery(window).load(function() {
