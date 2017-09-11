@@ -1,5 +1,5 @@
 /* =======================================================================
-AppSperia - App Landing Page
+AppSperia - App Landing Page 
 ======================================================================= */
 
 /*
@@ -63,7 +63,7 @@ ul {
 
 
 /*---------------------------------------
-   TYPOGRAPHY
+   TYPOGRAPHY                
 -----------------------------------------*/
 
 
@@ -103,7 +103,7 @@ h6 { font-weight: 400 }
 
 
 /*---------------------------------------
-   LAYOUT
+   LAYOUT          
 -----------------------------------------*/
 
 
@@ -111,7 +111,7 @@ h6 { font-weight: 400 }
 
 .fp-section {
     position: relative;
-    -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
@@ -239,8 +239,8 @@ h6 { font-weight: 400 }
     transition: 0.3s;
 }
 #social-icons a:hover i {
-    border: 1px solid #CAFAFE ;
-    color: #CAFAFE ;
+    border: 1px solid #84B42D ;
+    color: #84B42D ;
 }
 
 /*Right side mockup*/
@@ -259,7 +259,7 @@ h6 { font-weight: 400 }
 
 
 /*---------------------------------------
-   MENUS
+   MENUS          
 -----------------------------------------*/
 
 
@@ -296,7 +296,7 @@ h6 { font-weight: 400 }
     overflow-y: auto;
     font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
     font-size: 15px;
-    background: #574b73;
+    background: #84B42D;
 }
 .sidr.right {
     left: auto;
@@ -324,22 +324,22 @@ h6 { font-weight: 400 }
 .sidr ul li.active,
 .sidr ul li.sidr-class-active {
     border-top: none;
-    background: #574b73 ;
+    background: #84B42D ;
 }
 .sidr ul li:hover>a,
 .sidr ul li:hover>span,
 .sidr ul li.active>a,
 .sidr ul li.active>span,
 .sidr ul li.sidr-class-active>a,
-.sidr ul li.sidr-class-active>span { background: #574b73  }
+.sidr ul li.sidr-class-active>span { background: #91C72E  }
 .sidr ul li a,
 .sidr ul li span {
     padding: 0 25px;
     display: block;
     text-decoration: none;
-    color: #dbdbdb;
+    color: #fff;
     font-family: Open Sans;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase;
     font-weight: 700;
     -webkit-transition: 0.3s;
@@ -429,7 +429,7 @@ h6 { font-weight: 400 }
 
 
 /*---------------------------------------
-   ELEMENTS
+   ELEMENTS          
 -----------------------------------------*/
 
 
@@ -446,7 +446,7 @@ h6 { font-weight: 400 }
     left: 0;
     width: 100%;
     height: 4px;
-    background: #CAFAFE ;
+    background: #84B42D ;
     content: '';
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -611,11 +611,11 @@ h6 { font-weight: 400 }
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    background: #111 ;
+    background: #84B42D ;
 }
 .simple-button:hover {
     color: #333;
-    background: #CAFAFE;
+    background: #fff;
 }
 
 /*tooltip*/
@@ -718,13 +718,13 @@ h6 { font-weight: 400 }
 /*icons*/
 
 .icon {
-    font-weight: bold;
+    font-weight: normal;
     line-height: 20px;
     margin-right: 5px;
 }
 .clients-content .icon,
 .tabs .icon,
-.features .icon { color: #CAFAFE }
+.features .icon { color: #84B42D  }
 .simple-button .icon {
     margin-right: 20px;
     font-size: 18px;
@@ -849,7 +849,7 @@ SECTIONS
 .specifications li { padding: 3px }
 .specifications .icon {
     padding-right: 10px;
-    color: #CAFAFE ;
+    color: #84B42D ;
 }
 .normal .btn-line { width: 150px }
 .popular .btn-line {
@@ -857,9 +857,9 @@ SECTIONS
     border-color: #fff !important;
 }
 .price-table:hover .pricing-button,
-.price-table:hover .package { background: #CAFAFE  }
+.price-table:hover .package { background: #84B42D  }
 
-.price-table .pricing-button a {color: #CAFAFE }
+.price-table .pricing-button a {color: #84B42D }
 .price-table:hover .pricing-button a {color: #fff}
 .price-table:hover .package {color: #fff}
 
