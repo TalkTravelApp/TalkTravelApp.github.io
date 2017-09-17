@@ -15,7 +15,7 @@
         'easingcss3': 'ease',
         'navigation': true,
         // 'anchors': ['Home', 'Features', 'About', 'Video', 'Clients', 'Screenshots', 'Pricing', 'Download', 'Contact'],
-        'anchors': ['Home', 'Features', 'About', 'Clients', 'Screenshots', 'Download', 'Contact'],
+        'anchors': ['Home', 'Features', 'About', 'Clients', 'Screenshots', 'Download', 'Privacy_Policy', 'Terms_of_Service' , 'Contact'],
         'navigationPosition': 'left'
     });
     $('.screenshots-content, .clients-content').css('height', $(window).height());
@@ -43,6 +43,9 @@ $('#success').delay(2000).fadeOut();
 return false;
 
 });
+
+
+
 
   });
   jQuery(window).load(function() {
